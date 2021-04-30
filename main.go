@@ -20,6 +20,10 @@ func main(){
 	}
 }
 
-func createJSON(){
-	
+func createJSON(size:int){
+	sum := 0
+	for i := 0; i < size; i++ {
+		sum += i
+	}
+	fmt.Println(sum)
 }
